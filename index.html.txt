@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PORTFOLIO // 001</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Corner markers -->
+<div class="corner tl"></div>
+<div class="corner tr"></div>
+<div class="corner bl"></div>
+<div class="corner br"></div>
+
+<!-- Side text -->
+<div class="side-text left">
+  it<br>exists<br>to<br>those<br>who<br>are<br>already<br>chosen
+</div>
+<div class="side-text right">
+  it<br>exists<br>to<br>those<br>who<br>are<br>already<br>chosen
+</div>
+
+<div class="index-tag left">001</div>
+<div class="index-tag right">001</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="crosshair"></div>
+  <h1 class="glitch" data-text="JUST SHINE">JUST SHINE</h1>
+  <p class="subtitle">// PORTFOLIO ARCHIVE ///</p>
+</section>
+
+<!-- FEED -->
+<section class="feed-section">
+  <div class="section-header">
+    <span class="bar"></span>
+    <h2>LATEST / FEED</h2>
+    <span class="status" id="status">LOADING...</span>
+  </div>
+
+  <div id="feed" class="feed-grid"></div>
+</section>
+
+<footer>
+  <div class="footer-line"></div>
+  <p>[ SYSTEM ONLINE ] — ARCHIVE // 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
